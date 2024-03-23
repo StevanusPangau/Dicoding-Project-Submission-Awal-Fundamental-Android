@@ -16,7 +16,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "API_KEY", "\"adfsdfsgfgw\"")
+        buildConfigField("String", "API_KEY", "\"ghp_P7b0y2dJiwR_masukan_token_disini\"")
         buildConfigField("String", "BASE_URL", "\"https://api.github.com/\"")
     }
 
@@ -58,4 +58,11 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.logging.interceptor)
+
+    // Ktx
+    implementation(libs.androidx.activity.ktx)
+    implementation(libs.fragment.ktx)
+
+    // TabLayout
+    implementation(libs.androidx.viewpager2)
 }

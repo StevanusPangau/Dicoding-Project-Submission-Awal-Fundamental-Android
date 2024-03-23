@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.DicodingSubmissionAwalFundamentalAndroid" parent="Base.Theme.DicodingSubmissionAwalFundamentalAndroid" />
+
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item> <!-- Ukuran teks tab -->
+        <item name="android:textColor">@android:color/white</item> <!-- Warna teks tab -->
+        <item name="android:textStyle">bold</item> <!-- Gaya teks tab -->
+    </style>
 </resources>
